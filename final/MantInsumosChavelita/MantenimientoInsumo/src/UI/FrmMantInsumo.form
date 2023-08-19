@@ -1,0 +1,67 @@
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="UI.UI">
+  <grid id="formulario" row-count="1" column-count="1" layout-manager="GridLayoutManager">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+    </constraints>
+    <border type="none"/>
+    <children>
+      <!-- Etiquetas -->
+      <label id="jLabel1" text="MANTENIMIENTO INSUMOS">
+        <constraints>
+          <xy x="0" y="0" width="100%" height="30"/>
+        </constraints>
+      </label>
+      <label id="jLabel2" text="Id Insumo:"/>
+      <label id="jLabel3" text="Descripcion:"/>
+      <label id="jLabel4" text="Tipo:"/>
+      <label id="jLabel5" text="Fecha de Vencimiento:"/>
+      <label id="jLabel6" text="Fecha de llegada:"/>
+      <label id="jLabel7" text="Stock:"/>
+      <label id="jLabel8" text="Unidad:"/>
+      
+      <!-- Campos de texto -->
+      <textfield id="txtDescripcion"/>
+      <textfield id="txtTipo"/>
+      <textfield id="txtFechVencimiento"/>
+      <textfield id="txtFechLlegada"/>
+      <textfield id="txtStock"/>
+      <textfield id="txtUnidad"/>
+      <textfield id="txtIdInsumo"/>
+      
+      <!-- Botones -->
+      <button id="btnGrabar" text="Grabar"/>
+      <button id="btnLimpiar" text="Limpiar"/>
+      <button id="btnSalir" text="Salir"/>
+      
+      <!-- Panel -->
+      <panel id="jPanel1" layout-manager="GridLayoutManager">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <border type="titled">
+          <title>Panel de búsqueda</title>
+        </border>
+        <constraints>
+          <xy x="0" y="0" width="100%" height="100"/>
+        </constraints>
+        <children>
+          <label id="jLabel9" text="Buscar:"/>
+          <textfield id="txtBuscar"/>
+          <scrollpane id="jScrollPane1" layout-manager="ScrollPaneLayout">
+            <view>
+              <table id="tblInsumo" model="tableModel">
+                <table-column model-index="0" editable="false" title="IdInsumo"/>
+                <table-column model-index="1" editable="false" title="DescInsumo"/>
+                <table-column model-index="2" editable="false" title="Tipo"/>
+                <table-column model-index="3" editable="false" title="FechaVencimiento"/>
+                <table-column model-index="4" editable="false" title="FechaLlegada"/>
+                <table-column model-index="5" editable="false" title="Stock"/>
+                <table-column model-index="6" editable="false" title="Unidad"/>
+              </table>
+            </view>
+          </scrollpane>
+        </children>
+      </panel>
+    </children>
+  </grid>
+</form>
