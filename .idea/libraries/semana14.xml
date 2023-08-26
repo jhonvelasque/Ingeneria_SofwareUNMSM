@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="semana14">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/semana14/dbBean (3).zip!/" />
+      <root url="jar://$PROJECT_DIR$/semana14/iReport_Plug.zip!/" />
+      <root url="jar://$PROJECT_DIR$/semana14/sqljdbc41.zip!/" />
+      <root url="jar://$PROJECT_DIR$/semana14/mssql-jdbc-7.4.1.jre8.zip!/" />
+      <root url="jar://$PROJECT_DIR$/semana14/JasperReport_5_6_1_Lib (1).zip!/" />
+      <root url="jar://$PROJECT_DIR$/semana14/sqljdbc4.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

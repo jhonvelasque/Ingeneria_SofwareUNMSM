@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="semana4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/semana4/Mantenimiento.zip!/" />
+      <root url="jar://$PROJECT_DIR$/semana4/DbBean.zip!/" />
+      <root url="jar://$PROJECT_DIR$/semana4/JDBC_8.zip!/" />
+      <root url="jar://$PROJECT_DIR$/semana4/ProyMantenimiento.zip!/" />
+      <root url="jar://$PROJECT_DIR$/semana4/Util.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

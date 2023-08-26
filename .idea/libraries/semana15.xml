@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="semana15">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/semana15/BD_Base.zip!/" />
+      <root url="jar://$PROJECT_DIR$/semana15/ProyBase (1).zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

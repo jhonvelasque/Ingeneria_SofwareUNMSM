@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/final/Cliente/Cliente (1)/Cliente/Cliente/Cliente.iml" filepath="$PROJECT_DIR$/final/Cliente/Cliente (1)/Cliente/Cliente/Cliente.iml" />
+      <module fileurl="file://$PROJECT_DIR$/final/Cliente/Cliente (1)/Cliente/Cliente/Cliente/Cliente1.iml" filepath="$PROJECT_DIR$/final/Cliente/Cliente (1)/Cliente/Cliente/Cliente/Cliente1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Ingeneria_SofwareUNMSM.iml" filepath="$PROJECT_DIR$/.idea/Ingeneria_SofwareUNMSM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/final/MantInsumosChavelita/MantInsumosChavelita.iml" filepath="$PROJECT_DIR$/final/MantInsumosChavelita/MantInsumosChavelita.iml" />
+      <module fileurl="file://$PROJECT_DIR$/semana1/SEM_1/Proyecto_0/Proyecto_0.iml" filepath="$PROJECT_DIR$/semana1/SEM_1/Proyecto_0/Proyecto_0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/semana1/SEM_1/Proyecto_1/Proyecto_1.iml" filepath="$PROJECT_DIR$/semana1/SEM_1/Proyecto_1/Proyecto_1.iml" />
+    </modules>
+  </component>
+</project>
