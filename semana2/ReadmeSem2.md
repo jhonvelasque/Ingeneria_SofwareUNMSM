@@ -1,5 +1,5 @@
 # INTORDUCCION A FORMULARIOS
-- Buenas practicas nombrar de manera intuitiva los tipos de contenedores,ejemplo :
+- Buenas practicas es  nombrar de manera intuitiva los tipos de contenedores,ejemplo :
   - [tipo de contendor][nombre descriptivo]
   - txtNombre (haces referencia a un txt que contiene la varibale nombre)
 - Antes de hacer la logica tenemos que crear la clase que vamos hacer referencia
