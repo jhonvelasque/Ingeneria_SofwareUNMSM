@@ -36,6 +36,7 @@
  - Como usar agredar datos a  un vector en string?
     -   vector.addElemt(prod);
 
+
 ```java 
     private void btnAgregaActionPerformed(java.awt.event.ActionEvent evt) {                                          
             Producto prod;
@@ -44,11 +45,74 @@
             prod.setDescripcion(this.txtDescripcion.getText());
             prod.setTipo(this.cmbTipo.getSelectedItem().toString());
             prod.setPrecio(Double.parseDouble(this.txtPrecio.getText()));
-            
+            // agrgando todos los datos de la clases al vector 
             vecProd.addElement(prod);
             limpia();
     }    
 ```
-
+ - Como agrgar tipos a un cmb ?
+    - Creando un metoso 
+    ```java
+        private void agregaTipos(){
+        this.cmbTipo.addItem("");
+        this.cmbTipo.addItem("Cómputo");
+        this.cmbTipo.addItem("Ferretería");
+        this.cmbTipo.addItem("Librería");
+    }// Note oivides insatanciarlo en constructor 
+    
+    ```
+ - Como guarmaos la informacion en un vector ?
+    -  se declara como atributo del formulario
+    -  se instancia dentro del constructor del formulario
+    ```java
+        Vector vecProd;
+    ```
+- Como se debe ver el cosntructor del formulario ?
+```java 
+    public FrnProducto() {
+        vecProd = new Vector();
+        initComponents();
+        agregaTipos();
+        
+    }
+```
 - Como limpiar datos ?
-- Como Reportar datos ?
+ * se cre un metodo que vacia loas txt ,ejemplo:
+ ```java
+    private void limpia(){
+        this.txtIdProducto.setText("");
+        this.txtDescripcion.setText("");
+        this.txtPrecio.setText("");
+        this.cmbTipo.setSelectedItem("");
+    }
+ ```
+- Como Reportar datos en java ?
+    - se crea un metodo que muestre los valores de la clase con la quesestes trabajando
+    ```java
+    public String reportaDatos(){
+        String aux;
+        aux = "Id Producto: "+this.idProducto;
+        aux += "\nDescripción: "+this.descripcion;
+        aux += "\nTipo: "+this.tipo;
+        aux += "\nPrecio: "+this.precio;
+        return aux;
+    }
+    ```
+    - Luego creas un bucle y una variable auxiliar para mostrar los datos
+    ```java
+    
+    //profesor 
+    private void btnReportaActionPerformed(java.awt.event.ActionEvent evt) {                                           
+        Producto prodAux;
+        for(int i=0;i<vecProd.size();i++){
+            //prodAux = (tipo de dato)Nombre del vector.get(i);
+            prodAux = (Producto)vecProd.get(i);
+            System.out.println(prodAux.reportaDatos());
+            System.out.println("=================================");
+        }
+    ```
+    - Como hacemos para salir del formulario?
+        ```java
+        this.dispose();
+        ```
+

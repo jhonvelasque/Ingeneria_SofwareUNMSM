@@ -54,6 +54,18 @@ public class FrnProducto extends javax.swing.JFrame {
 
         jLabel5.setText("Precio");
 
+        txtIdProducto.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtIdProductoActionPerformed(evt);
+            }
+        });
+
+        cmbTipo.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cmbTipoActionPerformed(evt);
+            }
+        });
+
         btnAgrega.setText("Agrega");
         btnAgrega.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -153,7 +165,7 @@ public class FrnProducto extends javax.swing.JFrame {
     private void btnAgregaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAgregaActionPerformed
             Producto prod;
             prod = new Producto();
-            prod.setIdProducto(Integer.parseInt(this.txtIdProducto.getText()));
+            prod.setIdProducto(Integer.parseInt(this.txtIdProducto.getText()));//covertiendo a entero un txt
             prod.setDescripcion(this.txtDescripcion.getText());
             prod.setTipo(this.cmbTipo.getSelectedItem().toString());
             prod.setPrecio(Double.parseDouble(this.txtPrecio.getText()));
@@ -187,6 +199,14 @@ public class FrnProducto extends javax.swing.JFrame {
     private void btnSalirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSalirActionPerformed
         this.dispose();
     }//GEN-LAST:event_btnSalirActionPerformed
+
+    private void txtIdProductoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtIdProductoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtIdProductoActionPerformed
+
+    private void cmbTipoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmbTipoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_cmbTipoActionPerformed
 
 
     public static void main(String args[]) {

@@ -46,16 +46,7 @@ public class Producto {
     public void setPrecio(double precio) {
         this.precio = precio;
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
     public String reportaDatos(){
         String aux;
         aux = "Id Producto: "+this.idProducto;
