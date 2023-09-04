@@ -27,6 +27,7 @@
     }
 ```
 - Agregar Datos ?
+  - aplicando el metodo SET 
   - el metodo Integer.parseInt() convierte los valores a int
   - el metodo Double.paseDouble() convirte los valores a double
 - como se adsede al contenido de un txt?
