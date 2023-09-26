@@ -17,11 +17,16 @@
   - Actores: es alguien o algo que interactua con el sistema ejm : persona , maquina , otro sistema
   - Relaciones: sirve para ligar los casos de uso con los actores.
     - uso 
-    - inclusion(<<include>>): se utiliza para evitar la repeticion de casos de uso.
-    - extension
+    - inclusion("<< include >>"): se utiliza para evitar la repeticion de casos de uso.
+      ![INCLUDE](./PICTURE/inclusión.png)
+    - extension .
+
+       ![EXTENSION](./PICTURE/EXTEND.png)
     - generalizacion
     - dependencia
   - Funcionalidades: 
 ### REFERENCIAS
 [VIDEO DE TEORIA](https://www.youtube.com/watch?v=fJa3cshrFWs)
+#### Ejemplo de clase | 
+- ![ejemplo](./PICTURE/EjemploClase.jpg)
 
